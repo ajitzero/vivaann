@@ -1,0 +1,31 @@
+@import "base"
+
+// Custom navbar settings
+.navbar
+    // opacity: 0.5
+    background: rgba($primary-color, 1)
+    text-align: center
+    transition: all 0.3s ease
+    .navbar-brand
+        color: rgba($secondary-dark, 1)
+        padding: 10px
+        transition: all 0.3s ease
+        // width: 15rem
+    .navbar-toggler
+        border: none
+        outline: none
+        .navbar-toggler-icon
+            background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E")
+    .nav-link
+        min-width: 7rem
+        padding: 1rem 5rem
+        // border-bottom: 1px solid $secondary-dark
+    .navbar-nav, .nav-item.active, .nav-item:hover
+        .nav-link
+            color: rgba($secondary-dark, 1)
+
+.active
+    border-radius: 5rem
+    border: 1px solid $white
+    background: $white
+    color: rgba($secondary-dark, 1)

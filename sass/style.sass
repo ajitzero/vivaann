@@ -1,0 +1,118 @@
+@import "base"
+@import "navbar"
+
+$bp-sm: "max-width: 767px"
+$bp-md: "min-width: 768px"
+$bp-lg: "min-width: 992px"
+$bp-xl: "min-width: 1200px"
+
+// @media( #{$bp-sm})
+	// code here
+
+// @media( #{$bp-md})
+	// code here
+
+// @media( #{$bp-lg})
+	// code here
+
+// @media( #{$bp-xl})
+	// code here
+
+html, body, #wrapper
+	margin: 0
+	padding: 0
+	height: 100%
+	width: 100%
+	border: none
+	outline: none
+	box-sizing: border-box
+	font-family: $sans-serif
+
+a, a:link, a:hover, a:focus
+	outline: none
+
+#wrapper
+	overflow-y: scroll
+
+::selection
+	background: $primary-color
+
+::-moz-selection
+	background: $primary-color
+
+#Intro
+	background: $primary-color url('assets/brand/main-cover.jpg') center center no-repeat
+	background-size: cover
+	box-sizing: border-box
+	margin: 0
+	min-height: 100%
+	max-width: 100%
+	padding: 0
+	position: relative
+	img
+		display: block
+		margin: 0 auto
+		padding: 8rem 0 6rem
+		position: relative
+		width: 50%
+		@media( #{$bp-md})
+			width: 30%
+		@media( #{$bp-lg})
+			max-width: 250px
+	h1
+		text-align: center
+		font-family: $serif
+		font-size: 2.5rem
+		display: block
+		padding: 3rem 0 1rem
+		margin: 0
+		box-sizing: border-box
+		color: $secondary-dark
+		line-height: 3rem
+		span
+			line-height: 4rem
+			// display: block
+			margin: 1rem 0
+			padding: 0
+			margin: 0
+			background-color: $primary-color
+
+.btn-primary
+	background: $primary-color
+	color: $secondary-dark
+	border: none
+	font-size: 1.5rem
+	border-radius: 5rem
+	padding: 0.5rem 2rem
+	font-family: $serif
+	text-align: center
+	display: inline-block
+	margin: 1rem 0
+	&:hover, &:focus
+		background: $primary-color-darker
+		color: $secondary-dark
+
+.slide
+	min-height: 100%
+	width: 100%
+	padding: 1.5rem 1.5rem 3rem
+	margin: 0
+	box-sizing: border-box
+	h5
+		text-transform: uppercase
+		border-bottom: 1px $secondary-dark solid
+		display: inline-block
+		padding: 5rem 0 0.5rem
+		margin-bottom: 1.5rem
+	h2
+		font-family: $serif
+		padding: 0
+
+#About-Us
+	background: $white center center no-repeat
+
+#Our-Causes
+	background: $white
+	@media( #{$bp-md})
+		h2:first-child
+			padding: 4rem 0 0
