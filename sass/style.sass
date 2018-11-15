@@ -33,6 +33,9 @@ a, a:link, a:hover, a:focus
 	outline: none
 	transition: all 0.3 ease-in-out
 
+h1, h2
+	font-family: $serif
+
 #wrapper
 	overflow-y: scroll
 
@@ -86,7 +89,6 @@ a, a:link, a:hover, a:focus
 		text-transform: uppercase
 
 	h2
-		font-family: $serif
 		padding: 0
 
 #Intro
@@ -114,7 +116,6 @@ a, a:link, a:hover, a:focus
 		box-sizing: border-box
 		color: $secondary-dark
 		display: block
-		font-family: $serif
 		font-size: 2.5rem
 		line-height: 3rem
 		margin: 0
@@ -139,6 +140,9 @@ a, a:link, a:hover, a:focus
 
 #Recent-Events
 	// background: $off-white
+	h2
+		padding-top: 2rem
+
 	.e-date
 		color: $secondary-dark
 		opacity: .6
@@ -148,3 +152,11 @@ a, a:link, a:hover, a:focus
 		margin: 1rem auto
 		@media( #{$bp-md})
 			width: 30%
+
+#Support-Us
+	// background: $off-white
+	h1
+		font-size: 3rem
+
+	.tri-actions .col-md-4
+		padding-top: 3rem

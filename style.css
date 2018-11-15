@@ -52,6 +52,10 @@ a, a:link, a:hover, a:focus {
   transition: all 0.3 ease-in-out;
 }
 
+h1, h2 {
+  font-family: "Playfair Display", serif;
+}
+
 #wrapper {
   overflow-y: scroll;
 }
@@ -115,7 +119,6 @@ a, a:link, a:hover, a:focus {
   text-transform: uppercase;
 }
 .slide h2 {
-  font-family: "Playfair Display", serif;
   padding: 0;
 }
 
@@ -150,7 +153,6 @@ a, a:link, a:hover, a:focus {
   box-sizing: border-box;
   color: #101010;
   display: block;
-  font-family: "Playfair Display", serif;
   font-size: 2.5rem;
   line-height: 3rem;
   margin: 0;
@@ -171,6 +173,9 @@ a, a:link, a:hover, a:focus {
   }
 }
 
+#Recent-Events h2 {
+  padding-top: 2rem;
+}
 #Recent-Events .e-date {
   color: #101010;
   opacity: 0.6;
@@ -183,6 +188,13 @@ a, a:link, a:hover, a:focus {
   #Recent-Events .older-events {
     width: 30%;
   }
+}
+
+#Support-Us h1 {
+  font-size: 3rem;
+}
+#Support-Us .tri-actions .col-md-4 {
+  padding-top: 3rem;
 }
 
 /*# sourceMappingURL=style.css.map */

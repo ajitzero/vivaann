@@ -27,7 +27,7 @@
 	<div id="wrapper" class="container-fluid">
 		
 		<!-- Navigation section -->
-		<nav class="navbar navbar-expand-md fixed-top">
+		<nav class="navbar navbar-expand-xl fixed-top">
 			<a class="navbar-brand" href="#">Vivaann Welfare Association</a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#PrimaryMenu" aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
@@ -136,7 +136,6 @@
 			</div>
 		</div>
 		
-		<!-- TODO: Add Recent Causes (Events Timeline) section -->
 		<div id="Recent-Events" class="container slide">
 			<div class="row">
 				<div class="col-md-4 offset-md-1 offset-lg-0">
@@ -200,7 +199,35 @@
 			</div>
 		</div>
 		
-		<!-- TODO: Add Fund-raising (How can you help us) section -->
+		<div id="Support-Us" class="container slide">
+			<div class="row">
+				<div class="col-md-4">
+					<h5>Support Us</h5>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<h1>Help us achieve our goal, bit by bit</h1>
+				</div>
+			</div>
+			<div class="row tri-actions">
+				<div class="col-md-4">
+					<h2>Volunteer</h2>
+					<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum aspernatur dolorem quis molestias adipisci quae ducimus praesentium. Corrupti, porro excepturi, animi consequatur qui iure, possimus earum vero vitae illum dolore.</p>
+					<a href="#" class="btn btn-secondary">Join Us</a>
+				</div>
+				<div class="col-md-4">
+					<h2>Donate</h2>
+					<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum aspernatur dolorem quis molestias adipisci quae ducimus praesentium. Corrupti, porro excepturi, animi consequatur qui iure, possimus earum vero vitae illum dolore.</p>
+					<a href="#" class="btn btn-secondary">Everything counts!</a>
+				</div>
+				<div class="col-md-4">
+					<h2>Sponsor</h2>
+					<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum aspernatur dolorem quis molestias adipisci quae ducimus praesentium. Corrupti, porro excepturi, animi consequatur qui iure, possimus earum vero vitae illum dolore.</p>
+					<a href="#" class="btn btn-primary">Learn More</a>
+				</div>
+			</div>
+		</div>
 		
 		<!-- TODO: Add Contact Us section -->
 		
@@ -214,7 +241,7 @@
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-	
+
 	<!-- TODO: Menu Fade In on scroll -->
 	<script>
 		$(function () {
@@ -228,7 +255,7 @@
 					return item;
 				}
 			});
-			
+
 			$(window).on("scroll", function () {
 				// resize logo on scroll >= 100
 				if ($(this).scrollTop() >= 50) {
@@ -242,7 +269,7 @@
 						'color': 'green'
 					});
 				}
-				
+
 				// update `.active` for current menu area
 				var fromTop = $(this).scrollTop() + topMenuHeight;
 				var cur = scrollItems.map(function () {
@@ -257,7 +284,7 @@
 				.end().filter("[href='#" + id + "']")
 				.parent().addClass("active");
 			});
-			
+
 			// Close navbar on click
 			$('.nav-link').on('click', function () {
 				$('.navbar-collapse').collapse('hide');
