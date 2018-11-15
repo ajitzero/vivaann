@@ -28,6 +28,7 @@ html, body, #wrapper
 	outline: none
 	padding: 0
 	width: 100%
+	transition: all 0.3 ease-in-out
 
 a, a:link, a:hover, a:focus
 	outline: none
@@ -36,7 +37,7 @@ a, a:link, a:hover, a:focus
 h1, h2
 	font-family: $serif
 
-#wrapper
+body
 	overflow-y: scroll
 
 ::selection
@@ -158,5 +159,45 @@ h1, h2
 	h1
 		font-size: 3rem
 
-	.tri-actions .col-md-4
+	#tri-actions .col-md-4
 		padding-top: 3rem
+
+#Get-In-Touch
+	a#s-fb
+		color: #3b5999 !important
+	a#s-ig
+		color: #ea4c89 !important
+	a#s-yt
+		color: #cd201f !important
+	h2
+		opacity: 0.9
+	#team-cards
+		text-align: center
+		.col-md-4
+			margin: 1.5rem auto
+			padding: .5rem auto
+		img
+			border-radius: .5rem
+			opacity: 1
+			transition: all 0.3 ease-in-out
+			&:hover
+				opacity: .9
+		h3
+			font-family: $serif
+			margin: 1.5rem 0 0
+		h4
+			font-family: $serif
+			margin: 1rem 0 1.5rem
+		a
+			font-family: $sans-serif
+			font-size: 1.1rem
+			margin: .5rem 0
+			display: block
+
+#Footer
+	background: $primary-color
+	p
+		font-size: 1rem
+		padding: 1rem 0
+	a
+		color: $secondary-dark

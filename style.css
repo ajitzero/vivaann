@@ -45,6 +45,7 @@ html, body, #wrapper {
   outline: none;
   padding: 0;
   width: 100%;
+  transition: all 0.3 ease-in-out;
 }
 
 a, a:link, a:hover, a:focus {
@@ -56,7 +57,7 @@ h1, h2 {
   font-family: "Playfair Display", serif;
 }
 
-#wrapper {
+body {
   overflow-y: scroll;
 }
 
@@ -193,8 +194,61 @@ h1, h2 {
 #Support-Us h1 {
   font-size: 3rem;
 }
-#Support-Us .tri-actions .col-md-4 {
+#Support-Us #tri-actions .col-md-4 {
   padding-top: 3rem;
+}
+
+#Get-In-Touch a#s-fb {
+  color: #3b5999 !important;
+}
+#Get-In-Touch a#s-ig {
+  color: #ea4c89 !important;
+}
+#Get-In-Touch a#s-yt {
+  color: #cd201f !important;
+}
+#Get-In-Touch h2 {
+  opacity: 0.9;
+}
+#Get-In-Touch #team-cards {
+  text-align: center;
+}
+#Get-In-Touch #team-cards .col-md-4 {
+  margin: 1.5rem auto;
+  padding: 0.5rem auto;
+}
+#Get-In-Touch #team-cards img {
+  border-radius: 0.5rem;
+  opacity: 1;
+  transition: all 0.3 ease-in-out;
+}
+#Get-In-Touch #team-cards img:hover {
+  opacity: 0.9;
+}
+#Get-In-Touch #team-cards h3 {
+  font-family: "Playfair Display", serif;
+  margin: 1.5rem 0 0;
+}
+#Get-In-Touch #team-cards h4 {
+  font-family: "Playfair Display", serif;
+  margin: 1rem 0 1.5rem;
+}
+#Get-In-Touch #team-cards a {
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-size: 1.1rem;
+  margin: 0.5rem 0;
+  display: block;
+}
+
+#Footer {
+  background: #edea3e;
+}
+#Footer p {
+  font-size: 1rem;
+  padding: 1rem 0;
+}
+#Footer a {
+  color: #101010;
 }
 
 /*# sourceMappingURL=style.css.map */
