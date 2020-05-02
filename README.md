@@ -1,6 +1,6 @@
 # Vivaann Welfare Association
 
-Currently in Development. Maintainer: [@AjitZero](https://github.com/AjitZero)
+Currently in Development. Designed & Built by: [Ajit Panigrahi](https://ajitpanigrahi.com)
 
 ## Social Links:
 - Website: https://vivaann.github.io/
