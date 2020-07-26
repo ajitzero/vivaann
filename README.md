@@ -1,13 +1,21 @@
+<span align="center">
+  
+<img width="150px" height="150px" src="https://github.com/vivaann/vivaann.github.io/raw/master/assets/brand/logo.png" />
+
 # Vivaann Welfare Association
+### Help Make A Difference
 
-Currently in Development. Designed & Built by: [Ajit Panigrahi](https://ajitpanigrahi.com)
+[Website](https://vivaann.github.io/) | 
+[Facebook](https://www.facebook.com/vivaannwelfareassociation/) | 
+[Instagram](https://www.instagram.com/vivaannwelfare) | 
+[YouTube](https://www.youtube.com/channel/UCe5LcTDnhIHbHI7buIVSBmQ) | 
+[GitHub](https://www.github.com/vivaann/)
 
-## Social Links:
-- Website: https://vivaann.github.io/
-- Facebook: https://www.facebook.com/vivaannwelfareassociation/
-- Instagram: https://www.instagram.com/vivaannwelfare
-- YouTube: https://www.youtube.com/channel/UCe5LcTDnhIHbHI7buIVSBmQ
-- GitHub: https://www.github.com/vivaann/
+This repository contains the source code for the official Vivaann Welfare Association website.
+
+> Designed & built by [Ajit Panigrahi](https://twitter.com/ajitzero). Hosted on [GitHub Pages](https://pages.github.com/).
+
+</span>
 
 ## License
 
