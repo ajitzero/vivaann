@@ -1,4 +1,4 @@
-<span align="center">
+<div align="center">
   
 <img width="150px" height="150px" src="https://github.com/vivaann/vivaann.github.io/raw/master/assets/brand/logo.png" />
 
@@ -15,7 +15,7 @@ This repository contains the source code for the official Vivaann Welfare Associ
 
 > Designed & built by [Ajit Panigrahi](https://twitter.com/ajitzero). Hosted on [GitHub Pages](https://pages.github.com/).
 
-</span>
+</div>
 
 ## License
 
