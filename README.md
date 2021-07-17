@@ -13,7 +13,9 @@
 
 This repository contains the source code for the official Vivaann Welfare Association website.
 
-> Designed & built by [Ajit Panigrahi](https://twitter.com/ajitzero). Hosted on [GitHub Pages](https://pages.github.com/).
+Updated and currently managed by [Abhiraj Singh Chauhan](https://www.linkedin.com/in/abhirajsinghchauhan/).
+
+Hosted on [GitHub Pages](https://pages.github.com/).
 
 </div>
 
