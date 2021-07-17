@@ -74,17 +74,16 @@ body, html {
 .contactus{
 	padding: 45px;
 }
-.links{
+.links {
 	text-decoration: none;
 	color: #FF5733;
 	border: 2px solid #FF5733;
-	padding: 5px;
-	padding-right: 15px;
-	padding-left: 15px;
+	padding: 5px 15px;
 	border-radius: 8px;
 	font-family: sans-serif;
+	user-select: none;
 }
-.links:hover{
+.links:hover {
 	background-color: #FF5733;
 	color: white;
 }
