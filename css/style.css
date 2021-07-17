@@ -12,8 +12,12 @@ img {
 nav {
 	background-color: rgba(0, 0, 0, 0.8);
 }
-.navbar{
+.navbar {
 	padding: 1%;
+}
+.navbar .fa {
+	width: 1.5rem;
+	text-align: center;
 }
 .navbar-brand{
 	font-weight: bolder;
