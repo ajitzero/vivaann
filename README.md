@@ -1,6 +1,6 @@
 <div align="center">
   
-<img width="150px" height="150px" src="https://github.com/vivaann/vivaann.github.io/raw/master/assets/brand/logo.png" />
+<img width="150px" height="150px" src="https://github.com/vivaann/vivaann.github.io/raw/master/img/vivaannlogo.png" />
 
 # Vivaann Welfare Association
 ### Help Make A Difference
