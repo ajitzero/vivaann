@@ -1,6 +1,15 @@
 @charset "UTF-8";
 
-nav{
+img {
+	max-width: 100%;
+	height: auto;
+	user-select: none;
+}
+.row-content img {
+	width: 100%;
+	max-width: 300px;
+}
+nav {
 	background-color: rgba(0, 0, 0, 0.8);
 }
 .navbar{
